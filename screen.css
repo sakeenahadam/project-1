@@ -10,27 +10,35 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 /* My Site Styles*/
 
 html {
+  padding: 25px;
   color: black;
   background-color: #999966;
   font-family: Veranda, Arial, sans-serif;
-  }
+  font-size: 14px;
+  line-height: 22px;
+}
 
-ul > li {margin-left: 25px; 
-list-style-type: disc; }
-  li.comment{margin-left: 0px;
-list-style-type:none;
+ul > li {
+  margin-left: 25px;
+  list-style-type: disc; }
+li.comment {
+  margin-left: 0px;
+  list-style-type:none;
 }
 h1 {
-text-align: center;
+  text-align: center;
 }
-h2{
-border-bottom: 1px solid black;
-margin-top: 1em;
+h2 {
+  border-bottom: 1px solid black;
+  margin-top: 1em;
 }
 h3 {
-margin-top: 1em;
+  margin-top: 1em;
 }
 h1,h2,h3,h4,h5,h6 { font-weight: bold; }
 
+img {
+  margin-top: 50px;
+}
 
 
