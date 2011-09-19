@@ -13,12 +13,13 @@ html {
   color: black;
   background-color: #999966;
   font-family: Veranda, Arial, sans-serif;
-  margin:50px; }
+  }
 
-ul > li {margin-left: 25px;
+ul > li {margin-left: 25px; 
 list-style-type: disc; }
   li.comment{margin-left: 0px;
-list-style-type:none;}
+list-style-type:none;
+}
 h1 {
 text-align: center;
 }
