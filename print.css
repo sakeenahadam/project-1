@@ -10,26 +10,25 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 /* My Site Styles*/
 
 html {
-  padding: 25px;
+  padding: .5in;
   color: black;
-  background-color: #999966;
   font-family: Veranda, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 14pt;
+  line-height: 22pt;
 }
 
 ul > li {
-  margin-left: 25px;
+  margin-left: .5in;
   list-style-type: disc; }
 li.comment {
-  margin-left: 0px;
+  margin-left: 0in;
   list-style-type:none;
 }
 h1 {
   text-align: center;
 }
 h2 {
-  border-bottom: 1px solid black;
+  border-bottom: 1pt solid black;
   margin-top: 1em;
 }
 h3 {
@@ -40,13 +39,11 @@ h1,h2,h3,h4,h5,h6 { font-weight: bold; }
 div.sample { text-align: center; }
 
 img {
-  margin-top: 50px;
+  margin-top: .25in;
 }
 
 p.more {
-  margin-top: 25px;
-  text-align: center;
-  font-weight: bold;
+  display: none;
 }
 
 
