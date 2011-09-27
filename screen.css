@@ -12,7 +12,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 html {
   padding: 25px;
   color: black;
-  background-color: #999966;
+  background-color: #DDCFA6;
   font-family: Veranda, Arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
@@ -20,12 +20,13 @@ html {
 
 ul > li {
   margin-left: 25px;
-  list-style-type: disc; }
+  list-style-type: square; }
 li.comment {
   margin-left: 0px;
   list-style-type:none;
 }
 h1 {
+  font-size: 25px;
   text-align: center;
 }
 h2 {
