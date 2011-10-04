@@ -1,0 +1,88 @@
+/* screen.css: Screen Styles */
+
+/* Base Styles */
+
+/* Bold on headings, b, and strong */
+h1,h2,h3,h4,h5,h6,b,strong { font-weight: bold; }
+/* Italic on i, em, and cite: */
+i,em,cite { font-style: italic; }
+/* Dotted border and help cursor to abbr and acronym: */
+abbr,acronym { border-bottom: 1px dotted; cursor: help; }
+
+html {background-image: url("css/gfx/sakeenahsgrid.png");}
+
+/* Body */
+
+body {font-size: 12px}
+
+
+/* Major Divisions */
+
+/* Page (Containing Div) */
+div#page {}
+
+/* Header */
+div#header {}
+div#header h1 {}
+div#header h1 a {}
+div#header p.tagline {font-family: Georgia, serif; font-size: 10px;}
+div#header ul.accessibility {}
+
+/* Content */
+div#content {}
+
+div#main {font-family: Georgia, Helvetica, San-serif; font-size 12px; font-style: italics}
+
+
+div#supporting {}
+
+/* Footer */
+div#footer {background: #931119}
+div#footer p.credits {}
+div#footer ul.validators {}
+div#footer ul.validators li {}
+
+/*Navigation*/
+ul#navigation {}
+
+ul#navigation li {}
+
+ul#navigation li a {}
+
+ul#navigation li a:visited {color: purple}
+ul#navigation li a:hover {color: blue}
+ul#navigation li a:focus {color: red}
+
+
+/*Content Typography: Headings*/
+div#content h2 {font-style: center; font-size: 14px; font-family: Georgia, Helvetica, Arial, serif}
+div#content h3 {font-style: left; font-size: 12px; font-family: Georgia, Helvetica, Arial, serif}
+div#content h4 {font-style: left; font-size: 12px; font-family: Georgia, Helvetica, Arial, serif}
+div#content h5 {font-style: left; font-size: 12px; font-family: Georgia, Helvetica, Arial, serif}
+div#content h6 {font-style: left; font-size: 12px; font-family: Georgia, Helvetica, Arial, serif}
+
+
+/*Content Typography: Paragraphs*/
+div#content p {
+}
+
+/*Content Typography: Unordered Lists*/
+div#content ul {
+}
+div#content ul li {
+}
+/*Nested*/
+div#content * li ul {
+}
+div#content * li ul li {
+}
+
+
+
+/*Content Typography: Links*/
+div#content a {
+}
+div#content a:visited {color: purple}
+div#content a:hover {color: blue}
+div#content a:focus {color: red}
+
