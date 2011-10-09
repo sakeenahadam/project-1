@@ -1,0 +1,8 @@
+/* Typographic Grids */
+
+
+.t24 {
+  line-height: 24px;
+  font-size: 16px;
+  background-image: url('css/gfx/sakeenahsgrid.png');
+}
