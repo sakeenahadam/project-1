@@ -14,8 +14,6 @@ html {background-image: url("css/gfx/sakeenahsgrid.png");}
 /* Body */
 
 body {font-size: 12px}
-
-
 /* Major Divisions */
 
 /* Page (Containing Div) */
@@ -76,7 +74,6 @@ div#content * li ul {
 }
 div#content * li ul li {
 }
-
 
 
 /*Content Typography: Links*/
