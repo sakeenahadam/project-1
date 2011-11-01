@@ -5,19 +5,9 @@ Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
 version: 2.9.0
 */
-html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
 
 /* My Site Styles*/
 
-html {
-  color: none;
-  background-color: none;
-  font-family: Georgia, Veranda, Arial, sans-serif;
-  margin:50px; 
-  }
-
-ul > li {margin-left: 25px;
-      list-style-type: italic; }
 
 /* hide stuff*/
 ul.accessibility {display: none;}
@@ -25,119 +15,37 @@ ul.validators {display: none}
 li.comment {margin-center: 0px;
 }
 
-h1 {
-text-align: left; bold; 
-margin-top: 100px;
-
+h1 {font-family:Tahoma, Geneva, sans-serif; font-color: #0000; font-size:38px; text-shadow: 5px 5px 5px #0000; text-align: center; padding: 30px;
 }
-h2 {
-	color: #000;
-	font-size: 160%;
-	margin: 0 0 .5em;
+
+h2 {font-family:Georgia, "Times New Roman", Times, serif; font-color: #963; font-size: 32px; text-align: left; text-decoration: underline; clear:both; padding-bottom: 10px;
+}
+p {font-family:Georgia, "Times New Roman", Times, serif; font-color: #FF6; font-size: 14px; text-align: left; padding-bottom: 15px;
 }
 h3 {
-text-align: right; bold;
-margin-bottom: 0px;
-}
-/* This makes the sakeenah adam and confindent communication is key statement bold only */
-div {margin-top: 1px: text-align: center;}
-h4 { 
-font-weight: bold; text-align: left;
-}
-h5 {
-text-align: center; bold; font-size: 30px;
-margin-top: 10px; 
-}
-h6 {
-text-align: left; bold; font-size: 20px; 
+
 }
 
 div#content {
 }
-div#main {
-	position: relative;
-	padding-right: 201px;
-	min-height: 500px;
+div#page {
+  width: 800px;
+  margin: 0px auto;
+  background-color:#CCC;
 }
-
-div#supporting {
-	width:500px;
-	position:absolute;
-	top:265px;
-	right:268px;
+ul#specialties li {
+  width: 200px;
+  background-color:#0F3;
+  float: left;
 }
-
-
-div#footer {
-position: left;
-padding: 20px;
+ul#specialties li + li {
+  margin-left: 100px; padding: 10px; text-align: center;
 }
-#navigation
-{
-	float: left;
-	width: 100%;
-	background: #333;
+p.tagline {text-size: 20px; padding-bottom: 10px;
+	
 }
+p.credits {padding: 20px;clear:both; text-align: center; font-style: italic;
 
-#navigation ul
-{
-	margin: 0;
-	padding: 0;
 }
-
-#navigation ul li
-{
-	list-style-type: none;
-	display: inline;
-}
-
-#navigation li a
-{
-	display: block;
-	float: left;
-	padding: 5px 10px;
-	color: #fff;
-	text-decoration: none;
-	border-right: 1px solid #fff;
-}
-
-#navigation li a:hover { background: #383; }
-
-/* new css*
-
-#container
-{
-	margin: 0 30px;
-	background: #fff;
-}
-
-#header
-{
-	background: #ccc;
-	padding: 20px;
-}
-
-#header h1 { margin: 0; }
-
-
-
-#content
-{
-	clear: left;
-	padding: 20px;
-}
-
-#content h2
-{
-	color: #000;
-	font-size: 160%;
-	margin: 0 0 .5em;
-}
-
-#footer
-{
-	background: #ccc;
-	text-align: right;
-	padding: 20px;
-	height: 1%;
+p.navigation {background-color:#FC6; text-size: 14px;
 }
