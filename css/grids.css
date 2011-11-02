@@ -21,15 +21,4 @@
   background-image: url('img/22px-baseline.png');
 }
 
-div#page {
-	width: 700px;
-	margin: 0 auto;
-	position: relative;
-}
-.thumbnail
-{
-	float: left;
-	width: 100px;
-	height: 15px;
-	margin: 5px;
-}
+

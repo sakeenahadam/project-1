@@ -7,15 +7,27 @@ version: 2.9.0
 */
 
 /* My Site Styles*/
-h1 {font-family:Tahoma, Geneva, sans-serif; 
-color: #0000; 
-font-size:38px; 
-text-shadow: 5px 5px 5px #0000; 
+h1 {
+font-family:Tahoma, Geneva, sans-serif; 
+color: #000; 
+font-size:35px; 
 text-align: center; 
 padding: 30px;
 }
 h2 {font-family:Georgia, "Times New Roman", Times, 
-serif; color: #963; 
+serif; 
+color: #963; 
+font-size: 20px; 
+text-align: left; 
+text-decoration: underline; 
+clear:both; 
+width: 306px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+h3 {
+width: 306px;
+font-family:Georgia, "Times New Roman", Times, serif; 
 font-size: 32px; 
 text-align: left; 
 text-decoration: underline; 
@@ -23,24 +35,16 @@ clear:both;
 padding-bottom: 10px;
 }
 
-h3 {font-family:Georgia, "Times New Roman", Times, serif; color: ; 
-font-size: 32px; 
-text-align: left; 
-text-decoration: underline; 
-clear:both; 
-padding-bottom: 10px;
-}
-div#header{
-}
 div#page {
   width: 800px;
   margin: 0px auto;
   background-color:#CCC;
 }
-div#content {
-
-
+div#imagecontainer {
+  /*Temporary dimensions; remove once an image is placed*/
+text-align: center;
 }
+
 p {font-family:Georgia, "Times New Roman", Times, serif; 
 color: #FF6; 
 font-size: 14px; 
@@ -50,33 +54,36 @@ padding-bottom: 15px;
 
 /* hide stuff*/
 ul.accessibility {display: none;}
-ul.validators {display: none}
+ul.validators {display: none;}
 li.comment {margin-center: 0px;}
-div#supporting{
 
-
-}
 
 ul#specialties li {
-  width: 200px;
+  width: 306px;
   background-color:#0F3;
   float: left;
 }
 ul#specialties li + li {
-margin-left: 100px; 
-padding: 10px; 
+margin-left: 30px; 
 text-align: center;
 }
-p.tagline {text-size: 20px; 
+p.tagline {
+text-size: 20px; 
 padding-bottom: 10px;
-	
+font-style: italic;
+color: #963; 
 }
+
 p.credits {padding: 20px;
 clear:both; 
 text-align: center; 
 font-style: italic;
-
 }
-div#navigation {background-color:#FC6; 
-text-size: 14px;
+div#navigation {
+width: 474px;
+background-color: #FC6; 
+font-size: 20px;
+float: left;
+display: inline;
+margin: right 10px;
 }
