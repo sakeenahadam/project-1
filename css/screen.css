@@ -7,45 +7,76 @@ version: 2.9.0
 */
 
 /* My Site Styles*/
-
-
-/* hide stuff*/
-ul.accessibility {display: none;}
-ul.validators {display: none}
-li.comment {margin-center: 0px;
+h1 {font-family:Tahoma, Geneva, sans-serif; 
+color: #0000; 
+font-size:38px; 
+text-shadow: 5px 5px 5px #0000; 
+text-align: center; 
+padding: 30px;
+}
+h2 {font-family:Georgia, "Times New Roman", Times, 
+serif; color: #963; 
+font-size: 32px; 
+text-align: left; 
+text-decoration: underline; 
+clear:both; 
+padding-bottom: 10px;
 }
 
-h1 {font-family:Tahoma, Geneva, sans-serif; font-color: #0000; font-size:38px; text-shadow: 5px 5px 5px #0000; text-align: center; padding: 30px;
+h3 {font-family:Georgia, "Times New Roman", Times, serif; color: ; 
+font-size: 32px; 
+text-align: left; 
+text-decoration: underline; 
+clear:both; 
+padding-bottom: 10px;
 }
-
-h2 {font-family:Georgia, "Times New Roman", Times, serif; font-color: #963; font-size: 32px; text-align: left; text-decoration: underline; clear:both; padding-bottom: 10px;
-}
-p {font-family:Georgia, "Times New Roman", Times, serif; font-color: #FF6; font-size: 14px; text-align: left; padding-bottom: 15px;
-}
-h3 {
-
-}
-
-div#content {
+div#header{
 }
 div#page {
   width: 800px;
   margin: 0px auto;
   background-color:#CCC;
 }
+div#content {
+
+
+}
+p {font-family:Georgia, "Times New Roman", Times, serif; 
+color: #FF6; 
+font-size: 14px; 
+text-align: left; 
+padding-bottom: 15px;
+}
+
+/* hide stuff*/
+ul.accessibility {display: none;}
+ul.validators {display: none}
+li.comment {margin-center: 0px;}
+div#supporting{
+
+
+}
+
 ul#specialties li {
   width: 200px;
   background-color:#0F3;
   float: left;
 }
 ul#specialties li + li {
-  margin-left: 100px; padding: 10px; text-align: center;
+margin-left: 100px; 
+padding: 10px; 
+text-align: center;
 }
-p.tagline {text-size: 20px; padding-bottom: 10px;
+p.tagline {text-size: 20px; 
+padding-bottom: 10px;
 	
 }
-p.credits {padding: 20px;clear:both; text-align: center; font-style: italic;
+p.credits {padding: 20px;
+clear:both; 
+text-align: center; 
+font-style: italic;
 
 }
-p.navigation {background-color:#FC6; text-size: 14px;
+div#navigation {background-color:#FC6; 
+text-size: 14px;
 }
