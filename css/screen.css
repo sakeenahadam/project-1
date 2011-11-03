@@ -8,13 +8,16 @@ version: 2.9.0
 
 /* My Site Styles*/
 h1 {
+width: 306px;
 font-family:Tahoma, Geneva, sans-serif; 
 color: #000; 
-font-size:35px; 
+font-size: 22px; 
 text-align: center; 
 padding: 30px;
 }
-h2 {font-family:Georgia, "Times New Roman", Times, 
+h2 {
+width: 306px;
+font-family:Georgia, "Times New Roman", Times, 
 serif; 
 color: #963; 
 font-size: 20px; 
@@ -26,13 +29,13 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 h3 {
-width: 306px;
+width: 474px;
 font-family:Georgia, "Times New Roman", Times, serif; 
-font-size: 32px; 
+font-size: 16px; 
 text-align: left; 
 text-decoration: underline; 
 clear:both; 
-padding-bottom: 10px;
+margin-bottom: 10px;
 }
 
 div#page {
@@ -46,7 +49,7 @@ text-align: center;
 }
 
 p {font-family:Georgia, "Times New Roman", Times, serif; 
-color: #FF6; 
+color: #000; 
 font-size: 14px; 
 text-align: left; 
 padding-bottom: 15px;
@@ -56,16 +59,19 @@ padding-bottom: 15px;
 ul.accessibility {display: none;}
 ul.validators {display: none;}
 li.comment {margin-center: 0px;}
-
+.bullet li {
+list-style-type: disc;
+}
 
 ul#specialties li {
   width: 306px;
-  background-color:#0F3;
+  background-color:;
+  font-size: 18px;
   float: left;
 }
 ul#specialties li + li {
 margin-left: 30px; 
-text-align: center;
+text-align: left;
 }
 p.tagline {
 text-size: 20px; 
@@ -74,16 +80,21 @@ font-style: italic;
 color: #963; 
 }
 
-p.credits {padding: 20px;
+p.credits {padding: 22px;
 clear:both; 
 text-align: center; 
 font-style: italic;
 }
-div#navigation {
-width: 474px;
-background-color: #FC6; 
-font-size: 20px;
+ul#navigation li{
+width: 138px;
+font-size: 22px;
+background-color:CAA644;
 float: left;
-display: inline;
-margin: right 10px;
+padding-bottom: 22px;
+
 }
+ul#navigation li + li {
+margin-left: 30px; 
+text-align: left;
+}
+
