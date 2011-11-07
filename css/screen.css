@@ -13,24 +13,47 @@ font-family: Georgia, Tahoma, Geneva, sans-serif;
 color: #000; 
 font-size: 26px; 
 text-align: left; 
-margin-bottom: 22px;
+padding:16px;
 font-style: bold;
-
 }
+p.name {
+width: 84px;
+padding-top: 44px;
+text-align: left;
+font-size: 44px;
+color: white;
+}
+p.names {/* not working?*/
+width: 84px;
+padding-top: 11px;
+margin-left: 54px;
+text-align: left;
+font-size: 44px;
+color: white;
+}
+
+p.me {
+width: 588px;
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+
 h2 {
-width: 306px;
-font-family:Georgia, "Times New Roman", Times, 
-serif; 
-color: #963; 
+width: 474px;
+font-family: Georgia, "Times New Roman", Times, serif; 
+color: brown; 
 font-size: 20px; 
 text-align: left; 
-text-decoration: underline; 
+font-style: bold; 
 clear:both; 
 width: 306px;
 margin-top: 10px;
 margin-bottom: 10px;
-
+margin-left: 54px;
 }
+
 h3 {
 width: 474px;
 font-family:Georgia, "Times New Roman", Times, serif; 
@@ -40,20 +63,25 @@ text-decoration: underline;
 clear:both; 
 margin-top: 10px;
 margin-bottom: 10px;
+margin-left:54px;
 }
 
 div#page {
-  width: 800px;
-  margin-top: 66px;
-  margin-left: 54px;
-  background-color:#CCC;
+width: 800px;
+margin-top: 66px;
+margin-left: 54px;
+background-color:#DED4B9;
+position: relative;
  }
+
 div#imagecontainer {
-  /*Temporary dimensions; remove once an image is placed*/
 text-align: center;
+min-height: 300px;
+padding-left: 252px;
 }
 
-p {font-family:Georgia, "Times New Roman", Times, serif; 
+p {
+font-family:Georgia, "Times New Roman", Times, serif; 
 color: #000; 
 font-size: 14px; 
 text-align: left; 
@@ -62,53 +90,171 @@ padding-bottom: 15px;
 p.disclaimer {
 font-style: italic;
 }
+
 /* hide stuff*/
-ul.accessibility {display: none;}
-ul.validators {display: none;}
-li.comment {margin-center: 0px;}
-.bullet li {
-text-indent: 54px;
-list-style-type: disc;
+ul.accessibility {display: none;
+position: absolute
+left: -1000px
 }
+ul.validators {
+display: none;
+}
+li.comment {
+margin-left: 54px;
+}
+
+.bullet li {
+text-indent: 24px;
+margin-left: 54px;
+}
+
 h1.link { 
 width: 474px;
 font-size: 16px;
-text-align: left;
+margin-left: 138px;
 margin-top: 22px;
+color: #000;
+}
+/*how to make link text black*/
+h1.link + a {
+color: #000;
+}
+ul#specialties li {
+width:306px;
+font-size: 20px;
+float: left;
+color: #000;
+margin-bottom: 22px;
 }
 
-ul#specialties li {
-  width: 306px;
-  background-color:;
-  font-size: 20px;
-  float: left;
-}
 ul#specialties li + li {
 margin-left: 30px; 
 text-align: left;
+color: #000;
+margin-bottom: 22px;
+
 }
 p.tagline {
 text-size: 20px; 
 padding-bottom: 10px;
 font-style: italic;
-color: #963; 
+color: white; 
+margin-left:306px;
 }
 
-p.credits {padding: 22px;
+p.credits {
+padding: 22px;
 clear:both; 
 text-align: center; 
 font-style: italic;
 }
+h2.sp {
+width: 762px;
+font-size: 20px;
+font-style: bold; underline;
+color: brown;
+margin-left: 138px;
+
+}
+
+p.pp {
+width: 762px;
+font-size: 14px;
+color: #000;
+margin-left: 138px;
+
+}
+
 ul#navigation li{
-width: 138px;
-font-size: 22px;
-background-color:CAA644;
-float: left;
-padding-bottom: 22px;
-
+width: 84px;
+font-size: 20px;
+background-color:teal;
+color: white;
+padding-bottom: 18px;
+display: block; /* treat links as blocks*/
+margin-top: 10px;
+border: 1px solid black;
 }
+
 ul#navigation li + li {
-margin-left: 30px; 
-text-align: left;
+display: block; 
+color: white;
+border: 1px solid black;
 }
 
+div#header{
+width: 978px;
+height:176px;
+background-color: brown;
+color: white ;
+bottom-border: 2px solid black;
+}
+
+div#footer{
+width: 978px;
+height: 88px;
+background-color: brown;
+color: white;
+top-border: 2px solid black;
+}
+div#rwe {
+width: 792px;
+border: 1px solid black;
+margin-left: 138px;
+margin-bottom: 11px;
+}
+div#ed {
+width: 792px;
+border: 1px solid black;
+margin-left: 138px;
+margin-bottom: 11px;
+}
+div#bsk {
+width: 792px;
+border: 1px solid black;
+margin-left: 138px;
+margin-bottom: 11px;
+}
+p.imgcomment {
+margin-bottom: 22px;
+width: 474px;
+font-family: Georgia, "Times New Roman", Times, serif; 
+color: brown; 
+font-size: 20px; 
+text-align: left; 
+font-style: italic; bold; 
+clear:both; 
+width: 306px;
+margin-top: 10px;
+margin-bottom: 22px;
+margin-left: 222px;
+}
+
+a { 
+color: white;
+text-decoration: none;
+width: 222px;
+font-family: Georgia, Tahoma, Geneva, sans-serif; 
+font-size: 20px; 
+text-align: left; 
+padding:5px;
+}
+a:visited {
+color: white;
+}
+a:hover {
+color:blue;
+text-decoration: underline;
+}
+div#scans {
+width: 642px;
+border: 1px solid black;
+margin-left: 138px;
+margin-bottom: 20px;
+}
+/*not working*/
+ul.prj {
+font-style: bold;
+}
+
+/*move info up on all pages, fix specialties links, display scans, make name a link to home, upload to sakeenahadam.com*/
