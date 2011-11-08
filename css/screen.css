@@ -89,10 +89,12 @@ padding-bottom: 15px;
 }
 p.disclaimer {
 font-style: italic;
+margin-left: 138px;
 }
 
 /* hide stuff*/
-ul.accessibility {display: none;
+ul.accessibility {
+display: none;
 position: absolute
 left: -1000px
 }
@@ -115,7 +117,7 @@ margin-left: 138px;
 margin-top: 22px;
 color: #000;
 }
-/*how to make link text black*/
+/*how do I make link text black?*/
 h1.link + a {
 color: #000;
 }
@@ -148,13 +150,29 @@ clear:both;
 text-align: center; 
 font-style: italic;
 }
-h2.sp {
+
+h2.sp1 {
 width: 762px;
 font-size: 20px;
 font-style: bold; underline;
 color: brown;
 margin-left: 138px;
+}
 
+h2.sp2 {
+width: 762px;
+font-size: 20px;
+font-style: bold; underline;
+color: brown;
+margin-left: 138px;
+}
+
+h2.sp3 {
+width: 762px;
+font-size: 20px;
+font-style: bold; underline;
+color: brown;
+margin-left: 138px;
 }
 
 p.pp {
@@ -162,7 +180,21 @@ width: 762px;
 font-size: 14px;
 color: #000;
 margin-left: 138px;
+}
+h2.spec {
+width: 762px;
+font-size: 20px;
+font-style: bold; underline;
+color: brown;
+margin-left: 138px;
+}
 
+h2.spca {
+width: 762px;
+font-size: 20px;
+font-style: bold; underline;
+color: brown;
+margin-left: 138px;
 }
 
 ul#navigation li{
@@ -187,7 +219,7 @@ width: 978px;
 height:176px;
 background-color: brown;
 color: white ;
-bottom-border: 2px solid black;
+bottom-border: 2px solid black; /*doesn't display*/
 }
 
 div#footer{
@@ -195,14 +227,16 @@ width: 978px;
 height: 88px;
 background-color: brown;
 color: white;
-top-border: 2px solid black;
+top-border: 2px solid black; /*doesn't display*/
 }
+
 div#rwe {
 width: 792px;
 border: 1px solid black;
 margin-left: 138px;
 margin-bottom: 11px;
 }
+
 div#ed {
 width: 792px;
 border: 1px solid black;
@@ -215,6 +249,7 @@ border: 1px solid black;
 margin-left: 138px;
 margin-bottom: 11px;
 }
+
 p.imgcomment {
 margin-bottom: 22px;
 width: 474px;
@@ -243,9 +278,20 @@ a:visited {
 color: white;
 }
 a:hover {
-color:blue;
+color:purple;
 text-decoration: underline;
 }
+a:link { 
+color: white; 
+}
+a:focus { 
+background-color: none; 
+}
+
+a:active { 
+color: none; 
+}
+
 div#scans {
 width: 642px;
 border: 1px solid black;
