@@ -122,13 +122,14 @@ h1.link + a {
 color: #000;
 }
 ul#specialties li {
-width:306px;
+width:304px;
 font-size: 20px;
 float: left;
 color: #000;
 margin-bottom: 22px;
 background-color: teal;
-border: 1px; solid; black;
+border: 1px solid black;
+
 }
 
 ul#specialties li + li {
@@ -137,6 +138,7 @@ text-align: left;
 background-color: teal;
 color: #000;
 margin-bottom: 22px;
+border: 1px solid black;
 
 }
 p.tagline {
@@ -241,6 +243,7 @@ width: 792px;
 border: 1px solid black;
 margin-left: 138px;
 margin-bottom: 11px;
+margin-top: 10px;
 }
 
 div#ed {
@@ -309,5 +312,12 @@ margin-bottom: 20px;
 ul.prj {
 font-style: bold;
 }
-
+div#scans {
+width: 558px;
+margin-top: 10px;
+}
+img {
+max-width: 100%;
+display: block;
+}
 /*move info up on all pages, fix specialties links, display scans, make name a link to home, upload to sakeenahadam.com*/
