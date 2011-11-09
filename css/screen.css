@@ -75,7 +75,7 @@ position: relative;
  }
 
 div#imagecontainer {
-text-align: center;
+text-align: left;
 min-height: 300px;
 padding-left: 252px;
 }
@@ -127,11 +127,14 @@ font-size: 20px;
 float: left;
 color: #000;
 margin-bottom: 22px;
+background-color: teal;
+border: 1px; solid; black;
 }
 
 ul#specialties li + li {
 margin-left: 30px; 
 text-align: left;
+background-color: teal;
 color: #000;
 margin-bottom: 22px;
 
@@ -151,7 +154,7 @@ text-align: center;
 font-style: italic;
 }
 
-h2.sp1 {
+#sp1 {
 width: 762px;
 font-size: 20px;
 font-style: bold; underline;
@@ -159,7 +162,7 @@ color: brown;
 margin-left: 138px;
 }
 
-h2.sp2 {
+#sp2 {
 width: 762px;
 font-size: 20px;
 font-style: bold; underline;
@@ -167,7 +170,7 @@ color: brown;
 margin-left: 138px;
 }
 
-h2.sp3 {
+#sp3 {
 width: 762px;
 font-size: 20px;
 font-style: bold; underline;
@@ -181,7 +184,7 @@ font-size: 14px;
 color: #000;
 margin-left: 138px;
 }
-h2.spec {
+#spec {
 width: 762px;
 font-size: 20px;
 font-style: bold; underline;
@@ -189,14 +192,16 @@ color: brown;
 margin-left: 138px;
 }
 
-h2.spca {
+#spca {
 width: 762px;
 font-size: 20px;
 font-style: bold; underline;
 color: brown;
 margin-left: 138px;
 }
-
+ul#navigation {
+position: absolute;
+}
 ul#navigation li{
 width: 84px;
 font-size: 20px;
@@ -223,6 +228,7 @@ bottom-border: 2px solid black; /*doesn't display*/
 }
 
 div#footer{
+clear: both;
 width: 978px;
 height: 88px;
 background-color: brown;
@@ -260,11 +266,12 @@ text-align: left;
 font-style: italic; bold; 
 clear:both; 
 width: 306px;
-margin-top: 10px;
+margin-top: 20px;
 margin-bottom: 22px;
-margin-left: 222px;
+margin-left: 84px;
 }
-
+.link a:link,
+.link a:visited { color: black; }
 a { 
 color: white;
 text-decoration: none;
