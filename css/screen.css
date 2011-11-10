@@ -23,7 +23,7 @@ text-align: left;
 font-size: 44px;
 color: white;
 }
-p.names {/* not working?*/
+p.names {
 width: 84px;
 padding-top: 11px;
 margin-left: 54px;
@@ -35,8 +35,8 @@ color: white;
 p.me {
 width: 588px;
 position: absolute;
-top: 10px;
-right: 10px;
+top: 13px;
+right: 15px;
 }
 
 
@@ -117,13 +117,13 @@ margin-left: 138px;
 margin-top: 22px;
 color: #000;
 }
-/*how do I make link text black?*/
+
 h1.link + a {
 color: #000;
 }
 ul#specialties li {
-width:304px;
-font-size: 20px;
+width:306px;
+font-size: 14px;
 float: left;
 color: #000;
 margin-bottom: 22px;
@@ -133,7 +133,7 @@ border: 1px solid black;
 }
 
 ul#specialties li + li {
-margin-left: 30px; 
+margin-left: 25px; 
 text-align: left;
 background-color: teal;
 color: #000;
@@ -141,6 +141,7 @@ margin-bottom: 22px;
 border: 1px solid black;
 
 }
+
 p.tagline {
 text-size: 20px; 
 padding-bottom: 10px;
@@ -273,17 +274,20 @@ margin-top: 20px;
 margin-bottom: 22px;
 margin-left: 84px;
 }
-.link a:link,
-.link a:visited { color: black; }
+
 a { 
 color: white;
 text-decoration: none;
 width: 222px;
 font-family: Georgia, Tahoma, Geneva, sans-serif; 
-font-size: 20px; 
+font-size: 18px; 
 text-align: left; 
 padding:5px;
 }
+.link a:link,
+.link a:visited { 
+color: black; }
+
 a:visited {
 color: white;
 }
@@ -320,4 +324,4 @@ img {
 max-width: 100%;
 display: block;
 }
-/*move info up on all pages, fix specialties links, display scans, make name a link to home, upload to sakeenahadam.com*/
+
