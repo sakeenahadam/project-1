@@ -39,6 +39,26 @@ top: 13px;
 right: 15px;
 }
 
+/* Typographic Grids */
+
+.t24 {
+line-height: 24px;
+font-size: 16px;
+} 
+
+
+/* Column Grids */
+
+#page {
+width: 978px; /*Total with works out to 1008*/
+padding: 0px 15px 0px 15px;
+}
+
+.t22 {
+line-height: 22px;
+font-size: 14px;
+}
+
 
 h2 {
 width: 474px;
@@ -67,7 +87,7 @@ margin-left:54px;
 }
 
 div#page {
-width: 800px;
+width: 978px;
 margin-top: 66px;
 margin-left: 54px;
 background-color:#DED4B9;
@@ -127,19 +147,13 @@ font-size: 14px;
 float: left;
 color: #000;
 margin-bottom: 22px;
-background-color: teal;
-border: 1px solid black;
-
 }
 
 ul#specialties li + li {
 margin-left: 25px; 
 text-align: left;
-background-color: teal;
 color: #000;
 margin-bottom: 22px;
-border: 1px solid black;
-
 }
 
 p.tagline {
@@ -223,7 +237,7 @@ border: 1px solid black;
 }
 
 div#header{
-width: 978px;
+width: 983px;
 height:176px;
 background-color: brown;
 color: white ;
@@ -232,7 +246,7 @@ bottom-border: 2px solid black; /*doesn't display*/
 
 div#footer{
 clear: both;
-width: 978px;
+width: 983px;
 height: 88px;
 background-color: brown;
 color: white;
@@ -276,7 +290,7 @@ margin-left: 84px;
 }
 
 a { 
-color: white;
+color: black;
 text-decoration: none;
 width: 222px;
 font-family: Georgia, Tahoma, Geneva, sans-serif; 
@@ -289,14 +303,14 @@ padding:5px;
 color: black; }
 
 a:visited {
-color: white;
+color: black;
 }
 a:hover {
 color:purple;
 text-decoration: underline;
 }
 a:link { 
-color: white; 
+color: black; 
 }
 a:focus { 
 background-color: none; 

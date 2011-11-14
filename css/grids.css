@@ -1,24 +1,2 @@
-/* Typographic Grids */
-
-.t24 {
-  line-height: 24px;
-  font-size: 16px;
-  background-image: url('img/24px-baseline.png');
-} 
-
-
-/* Column Grids */
-
-.g978 #page {
-    width: 978px; /*Total with works out to 1008*/
-    padding: 0px 15px 0px 15px;
-    background-image: url('img/978px-15-54-15-unit.png');
-}
-
-.t22 {
-  line-height: 22px;
-  font-size: 14px;
-  background-image: url('img/22px-baseline.png');
-}
 
 
